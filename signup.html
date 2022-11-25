@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="vh-100 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="border border-3 border-primary"></div>
+            <div class="card bg-dark">
+              <div class="card-body p-5">
+                <form class="mb-3 mt-md-4">
+                  <h2 class="fw-bold mb-2 text-uppercase">SMAP</h2>
+
+                  <div class="mb-3 row">
+                    <div class="col-lg-6">
+                      <label for="email" class="form-label">First name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fname"
+                        placeholder="Your First Name"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="email" class="form-label">Last name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lname"
+                        placeholder="Your Last Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="pNumber"
+                      placeholder="123456"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="*******"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="passwordConfirm" class="form-label"
+                      >Confirm Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passwordConfirm"
+                      placeholder="*******"
+                    />
+                  </div>
+
+                  <div class="d-grid">
+                    <button class="btn btn-outline-primary" type="submit">
+                      Register
+                    </button>
+                  </div>
+                </form>
+                <p class="mb-0 text-center">
+                  Have an account?
+                  <a href="login.html" class="text-primary fw-bold">Sign In</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./vendor/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

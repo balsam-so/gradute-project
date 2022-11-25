@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="vh-100 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="border border-3 border-primary"></div>
+
+            <div class="card bg-dark">
+              <div class="card-body p-5">
+                <a href="index.html" class="text-primary fw-bold"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                </a>
+                <form class="mb-3 mt-md-4">
+                  <h2 class="fw-bold mb-2 text-uppercase">SMAP</h2>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="*******"
+                    />
+                  </div>
+                  <label for="remember-me" class=""
+                    ><span>Remember me</span> <span
+                      ><input
+                        id="remember-me"
+                        name="remember-me"
+                        type="checkbox" /></span></label
+                  ><br />
+                  <p class="small">
+                    <a class="text-primary" href="forget-password.html"
+                      >Forgot password?</a
+                    >
+                  </p>
+                  <div class="d-grid">
+                    <button class="btn btn-outline-primary" type="submit">
+                      Login
+                    </button>
+                  </div>
+                </form>
+                <div>
+                  <p class="mb-0 text-center">
+                    Don't have an account?
+                    <a href="signup.html" class="text-primary fw-bold"
+                      >Sign Up</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./vendor/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
